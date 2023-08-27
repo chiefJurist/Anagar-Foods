@@ -1,28 +1,19 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
+<script>
+    import { RouterView } from 'vue-router'
+    import Header from './components/Header.vue';
+
+    export default{
+        components: { Header }
+    }
 </script>
 
 <template>
-    <h1>111</h1>
-	<RouterView />
+    <div class="px-16 text-gray-600 bg-gray-100 font-custom">
+        <Header />
+	    <RouterView />
+    </div>
 </template>
 
 <style>
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
 </style>

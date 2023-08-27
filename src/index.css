@@ -1,3 +1,22 @@
+/*Importing from Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header-container{
+    @apply flex justify-between items-center font-bold border-b-2 border-blue-500 mb-12;
+}
+
+.nav-container{
+    @apply flex justify-end items-center;
+}
+
+.header-router{
+    @apply  inline-block py-8 px-3 text-2xl transition ease-in duration-500 hover:bg-gray-600 hover:text-blue-400;
+}
+
+.router-link-active{
+    @apply bg-blue-600 text-white;
+}
