@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-between items-center border-t-2 border-blue-600 py-8">
+    <div class="flex justify-between items-center border-t-4 border-orange-500 py-8 text-orange-700 font-bold mt-20">
         <div>© Copyrights 2023 Anagar Foods All rights reserved</div>
 
         <div class="flex">

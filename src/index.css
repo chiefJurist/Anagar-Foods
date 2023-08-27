@@ -5,8 +5,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.app{
+    @apply bg-gray-100 md:px-10 font-custom;
+}
+
 .header-container{
-    @apply flex justify-between items-center font-bold border-b-2 border-blue-500 mb-12;
+    @apply flex justify-between items-center text-orange-700 font-bold border-b-4 border-orange-500 mb-12;
 }
 
 .nav-container{
@@ -14,9 +19,9 @@
 }
 
 .header-router{
-    @apply  inline-block py-8 px-3 text-2xl transition ease-in duration-500 hover:bg-gray-600 hover:text-blue-400;
+    @apply  inline-block py-8 px-3 text-2xl transition ease-in duration-500 hover:bg-gray-300 hover:text-orange-500;
 }
 
 .router-link-active{
-    @apply bg-blue-600 text-white;
+    @apply bg-orange-700 text-gray-100;
 }

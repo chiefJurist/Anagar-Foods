@@ -9,7 +9,7 @@
 </script>
 
 <template>
-    <div class="px-16 text-gray-600 bg-gray-100 font-custom">
+    <div class="app">
         <Header />
 	    <RouterView />
         <Footer />
