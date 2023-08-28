@@ -11,7 +11,7 @@
 }
 
 .header-container{
-    @apply flex justify-between items-center text-orange-700 font-bold border-b-4 border-orange-500 mb-12 w-full;
+    @apply flex justify-between items-center text-orange-700 font-bold border-b-4 border-orange-500 mb-12;
 }
 
 .nav-container{

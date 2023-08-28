@@ -1,6 +1,6 @@
 <template>
     <div class="header-container">
-        <div class="inline-block text-2xl">Anagar Foods</div>
+        <div class="inline-block text-4xl py-5 sm:py-0 sm:text-2xl">Anagar Foods</div>
 
         <!--Menu for bigger screens-->
         <div class="nav-container">
@@ -12,5 +12,8 @@
         </div>
 
         <!--Menu for small screens-->
+        <div class="burger sm:hidden">
+            <ion-icon name="menu-outline" class="font-bold text-3xl"></ion-icon>
+        </div>
     </div>
 </template>

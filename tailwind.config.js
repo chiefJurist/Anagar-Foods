@@ -7,7 +7,8 @@ module.exports = {
         'src/views/ContactView.vue',
         'src/components/Map.vue',
         'src/components/Message.vue',
-        'src/components/Link.vue'
+        'src/components/Link.vue',
+        'src/components/Menu.vue',
     ],
     theme: {
         extend: {
