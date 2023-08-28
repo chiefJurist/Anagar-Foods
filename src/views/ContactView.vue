@@ -1,3 +1,15 @@
+<script>
+    import Map from '../components/Map.vue';
+    import Message from '../components/Message.vue';
+    import Link from '../components/Link.vue';
+
+    export default{
+        components: { Map, Message, Link }
+    }
+</script>
+
 <template>
-    <div>This is the contact page</div>
+    <Map />
+    <Message />
+    <Link />
 </template>

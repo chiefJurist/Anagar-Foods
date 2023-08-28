@@ -7,21 +7,38 @@
 
 
 .app{
-    @apply bg-gray-100 md:px-10 font-custom;
+    @apply bg-gray-100 px-3 md:px-10 font-custom;
 }
 
 .header-container{
-    @apply flex justify-between items-center text-orange-700 font-bold border-b-4 border-orange-500 mb-12;
+    @apply flex justify-between items-center text-orange-700 font-bold border-b-4 border-orange-500 mb-12 w-full;
 }
 
 .nav-container{
-    @apply flex justify-end items-center;
+    @apply hidden sm:flex justify-end items-center;
 }
 
 .header-router{
-    @apply  inline-block py-8 px-3 text-2xl transition ease-in duration-500 hover:bg-gray-300 hover:text-orange-500;
+    @apply  inline-block py-8 px-3 text-lg lg:text-2xl transition ease-in duration-500 hover:bg-gray-300 hover:text-orange-500;
 }
 
 .router-link-active{
     @apply bg-orange-700 text-gray-100;
+}
+
+/*ContactView.vue*/
+.input{
+    @apply border border-gray-400 rounded-2xl p-2 md:mr-8 mt-5 w-full;
+}
+
+.contact{
+    @apply lg:flex gap-5 pt-8;
+}
+
+.contact-head{
+    @apply font-bold text-xl text-gray-800;
+}
+
+.contact-image{
+    @apply flex justify-center py-2 lg:block;
 }
