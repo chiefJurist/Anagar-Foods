@@ -1,28 +1,31 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
+<script>
+    import { RouterView } from 'vue-router'
+    import Header from './components/Header.vue';
+    import Footer from './components/Footer.vue';
+    import Menu from './components/Menu.vue';
+
+    export default{
+        components: { Header, Footer, Menu },
+
+        data() {
+            return{
+                showMenu: false
+            }
+        },
+
+        methods: {
+            toggleShowMenu() {
+                this.showMenu = !this.showMenu
+            }
+        }
+    }
 </script>
 
 <template>
-    <h1>111</h1>
-	<RouterView />
+    <div class="app">
+        <Header :showMenu="showMenu" @control ="toggleShowMenu" />
+        <Menu :showMenu="showMenu" @control="toggleShowMenu" />
+	    <RouterView v-if="!showMenu" />
+        <Footer v-if="!showMenu" />
+    </div>
 </template>
-
-<style>
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-</style>
