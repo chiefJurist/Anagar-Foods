@@ -8,7 +8,7 @@
 </script>
 
 <template>
-    <Map class=" px-4 sm:px-0" />
+    <ContactMap class=" px-4 sm:px-0" />
     <ContactMessage  class=" px-4 sm:px-0" />
     <Link  class=" px-4 sm:px-0" />
 </template>
