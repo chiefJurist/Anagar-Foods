@@ -9,6 +9,7 @@ module.exports = {
         'src/components/ContactMessage.vue',
         'src/components/Link.vue',
         'src/components/Menu.vue',
+        'src/views/AboutView.vue',
     ],
     theme: {
         extend: {
