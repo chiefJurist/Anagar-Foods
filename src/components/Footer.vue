@@ -1,16 +1,16 @@
 <template>
-    <div class="flex flex-wrap justify-between items-center border-t-4 border-orange-500 py-8 text-orange-700 font-bold mt-20">
+    <div class="footer-container">
         <div>© Copyrights 2023 Anagar Foods All rights reserved</div>
 
         <div class="flex">
             <a href="#" class="px-4">
-                <img src="../assets/logo-facebook.svg" alt="Facebook link" class="w-6">
+                <ion-icon name="logo-facebook" class=" text-blue-700 text-3xl"></ion-icon>
             </a>
             <a href="#" class="px-4">
-                <img src="../assets/logo-twitter.svg" alt="Twitter link" class="w-6">
+                <ion-icon name="logo-whatsapp" class=" text-green-600 text-3xl"></ion-icon>
             </a>
             <a href="#" class="px-4">
-                <img src="../assets/logo-instagram.svg" alt="Instagram link" class="w-6">
+                <ion-icon name="logo-twitter" class=" text-blue-400 text-3xl"></ion-icon>
             </a>
         </div>
     </div>

@@ -1,3 +1,13 @@
+<script>
+    export default {
+       methods: {
+            toggle() {
+                this.$emit('control')
+            }
+       }
+    }
+</script>
+
 <template>
     <div class="header-container">
         <div class="inline-block text-4xl py-5 sm:py-0 sm:text-2xl">Anagar Foods</div>
@@ -12,7 +22,7 @@
         </div>
 
         <!--Menu for small screens-->
-        <div class="burger sm:hidden">
+        <div @click="toggle" class="burger sm:hidden">
             <ion-icon name="menu-outline" class="font-bold text-3xl"></ion-icon>
         </div>
     </div>

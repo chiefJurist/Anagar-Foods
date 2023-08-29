@@ -5,19 +5,27 @@
     import Menu from './components/Menu.vue';
 
     export default{
-        components: { Header, Footer, Menu }
+        components: { Header, Footer, Menu },
+
+        data() {
+            return{
+                showMenu: false
+            }
+        },
+
+        methods: {
+            toggleShowMenu() {
+                this.showMenu = !this.showMenu
+            }
+        }
     }
 </script>
 
 <template>
     <div class="app">
-        <Header />
-        <Menu />
-	    <RouterView />
-        <Footer />
+        <Header :showMenu="showMenu" @control ="toggleShowMenu" />
+        <Menu :showMenu="showMenu" @control="toggleShowMenu" />
+	    <RouterView v-if="!showMenu" />
+        <Footer v-if="!showMenu" />
     </div>
 </template>
-
-<style>
-
-</style>

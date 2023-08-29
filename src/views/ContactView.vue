@@ -9,7 +9,7 @@
 </script>
 
 <template>
-    <Map />
-    <Message />
-    <Link />
+    <Map class=" px-4 sm:px-0" />
+    <Message  class=" px-4 sm:px-0" />
+    <Link  class=" px-4 sm:px-0" />
 </template>

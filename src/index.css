@@ -7,11 +7,15 @@
 
 
 .app{
-    @apply bg-gray-100 px-3 md:px-10 font-custom;
+    @apply bg-gray-100 sm:px-10 font-custom;
+}
+
+.footer-container{
+    @apply flex flex-wrap justify-between items-center sm:border-t-4 border-orange-500 p-2 text-orange-100 sm:text-orange-700 font-bold mt-20 bg-orange-500 sm:bg-gray-100;
 }
 
 .header-container{
-    @apply flex justify-between items-center text-orange-700 font-bold border-b-4 border-orange-500 mb-12;
+    @apply flex justify-between items-center text-white sm:text-orange-700 font-bold sm:border-b-4 border-orange-500 mb-12 p-3 sm:p-0 bg-orange-500 sm:bg-gray-100;
 }
 
 .nav-container{
@@ -23,8 +27,10 @@
 }
 
 .router-link-active{
-    @apply bg-orange-700 text-gray-100;
+    @apply sm:bg-orange-700 text-gray-100;
 }
+
+
 
 /*ContactView.vue*/
 .input{
@@ -42,3 +48,12 @@
 .contact-image{
     @apply flex justify-center py-2 lg:block;
 }
+
+/*Menu*/
+.menu-link{
+    @apply p-5 font-bold block text-gray-300 border-b border-white text-2xl active:bg-orange-400;
+}
+
+
+
+/**/
