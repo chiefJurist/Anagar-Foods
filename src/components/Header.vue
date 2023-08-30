@@ -21,6 +21,8 @@
                 <li><router-link to="/" class="header-router">Home</router-link></li>
                 <li><router-link to="/about" class="header-router">About</router-link></li>
                 <li><router-link to="/contact" class="header-router">Contact</router-link></li>
+                <li><router-link to="/login" class="header-router">Login</router-link></li>
+                <li><router-link :to="{name: 'Register'}" class="header-router">Register</router-link></li>
             </ul>
         </div>
 

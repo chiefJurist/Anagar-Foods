@@ -7,10 +7,12 @@ module.exports = {
         'src/views/ContactView.vue',
         'src/components/ContactMap.vue',
         'src/components/ContactMessage.vue',
-        'src/components/Link.vue',
-        'src/components/Menu.vue',
-        'src/views/AboutView.vue',
         'src/components/ContactNav.vue',
+        'src/components/Menu.vue',
+        'src/views/LoginView.vue',
+        'src/views/RegisterView.vue',
+        'src/views/AboutView.vue',
+        
     ],
     theme: {
         extend: {

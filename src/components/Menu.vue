@@ -19,6 +19,8 @@
             <router-link to="/" class="menu-link"  @click="toggle">Home</router-link>
             <router-link to="/about" class="menu-link"  @click="toggle">About</router-link>
             <router-link to="/contact" class="menu-link"  @click="toggle">Contact</router-link>
+            <router-link to="/login" class="menu-link"  @click="toggle">Log In</router-link>
+            <router-link to="/register" class="menu-link"  @click="toggle">Sign up</router-link>
         </div>
     </transition>
 </template>
