@@ -3,7 +3,7 @@
 
 
         <!--Commenting-->
-        <div class="mb-20 lg:mb-0 flex-auto">
+        <div class="mb-20 lg:mb-0 flex-auto bg-bg-sm-4 bg-no-repeat bg-left-top">
             <div class="text-2xl md:text-4xl font-bold">Add a Comment</div>
 
            <div class="lg:flex gap-6">
@@ -32,7 +32,7 @@
 
 
         <!--Contact Details-->
-        <div class="flex-auto">
+        <div class="flex-auto bg-bg-7">
             <div class="text-2xl md:text-4xl font-bold">Our Contacts</div>
 
             <div class="contact">

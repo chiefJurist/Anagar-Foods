@@ -10,12 +10,15 @@
 
 <template>
     <div class="header-container">
-        <div class="inline-block text-4xl py-5 sm:py-0 sm:text-2xl">Anagar Foods</div>
+        <div class=" py-5 sm:py-0 sm:text-2xl">
+            <span><img src="../assets/logo.png" alt="logo" class=" w-1/4 sm:w-1/2 "></span>
+            <span class=" text-2xl sm:text-3xl">Anagar Foods</span>
+        </div>
 
         <!--Menu for bigger screens-->
         <div class="nav-container">
             <ul class="flex">
-                <li><router-link :to="{name: 'Home'}" class="header-router">Home</router-link></li>
+                <li><router-link to="/" class="header-router">Home</router-link></li>
                 <li><router-link to="/about" class="header-router">About</router-link></li>
                 <li><router-link to="/contact" class="header-router">Contact</router-link></li>
             </ul>
