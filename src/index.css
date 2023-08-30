@@ -11,11 +11,15 @@
 }
 
 .footer-container{
-    @apply flex flex-wrap justify-between items-center sm:border-t-4 border-orange-500 p-2 text-orange-100 sm:text-orange-700 font-bold mt-20 bg-orange-500 sm:bg-gray-100;
+    @apply flex flex-wrap justify-between items-center sm:border-t-4 border-orange-500 p-2 text-orange-100 sm:text-orange-700 font-bold mt-20 bg-orange-600 sm:bg-gray-100;
+}
+
+.footer-icon{
+    @apply text-white text-3xl sm:text-orange-700;
 }
 
 .header-container{
-    @apply flex justify-between items-center text-white sm:text-orange-700 font-bold sm:border-b-4 border-orange-500 mb-12 p-3 sm:p-0 bg-orange-500 sm:bg-gray-100;
+    @apply flex justify-between items-center text-white sm:text-orange-700 font-bold sm:border-b-4 border-orange-500 mb-12 p-3 sm:p-0 bg-orange-600 sm:bg-gray-100;
 }
 
 .nav-container{
