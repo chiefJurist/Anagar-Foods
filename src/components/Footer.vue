@@ -4,13 +4,13 @@
 
         <div class="flex">
             <a href="#" class="px-4">
-                <ion-icon name="logo-facebook" class=" text-blue-700 text-3xl"></ion-icon>
+                <ion-icon name="logo-facebook" class=" footer-icon "></ion-icon>
             </a>
             <a href="#" class="px-4">
-                <ion-icon name="logo-whatsapp" class=" text-green-600 text-3xl"></ion-icon>
+                <ion-icon name="logo-whatsapp" class=" footer-icon "></ion-icon>
             </a>
             <a href="#" class="px-4">
-                <ion-icon name="logo-twitter" class=" text-blue-400 text-3xl"></ion-icon>
+                <ion-icon name="logo-twitter" class=" footer-icon "></ion-icon>
             </a>
         </div>
     </div>
