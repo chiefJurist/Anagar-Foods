@@ -60,4 +60,10 @@
 
 
 
-/**/
+/*About View*/
+.card-title{
+    @apply text-3xl md:text-5xl py-4 font-serif font-bold text-yellow-500;
+}
+.card{
+    @apply text-yellow-700 text-lg font-light shadow-md rounded-md text-center p-4 border-l-8 border-yellow-500 bg-bg-sm-6 bg-no-repeat bg-right-bottom;
+}
