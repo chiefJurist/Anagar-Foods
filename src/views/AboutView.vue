@@ -1,6 +1,16 @@
+<script>
+    import AboutNav from '../components/About/AboutNav.vue';
+    import AboutDescription from '../components/About/AboutDescription.vue';
+
+    export default {
+        components : { AboutNav, AboutDescription }
+    }
+</script>
+
 <template>
     <div class="about">
-        <h1>This is an about page</h1>
+        <AboutNav />
+        <AboutDescription />
     </div>
 </template>
 

@@ -12,7 +12,8 @@ module.exports = {
         'src/views/LoginView.vue',
         'src/views/RegisterView.vue',
         'src/views/AboutView.vue',
-        
+        'src/components/About/AboutNav.vue',
+        'src/components/About/AboutDescription.vue',
     ],
     theme: {
         extend: {
