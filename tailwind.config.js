@@ -14,6 +14,9 @@ module.exports = {
         'src/views/AboutView.vue',
         'src/components/About/AboutNav.vue',
         'src/components/About/AboutDescription.vue',
+        'src/components/About/InternationalMenu.vue',
+        'src/components/About/LocalMenu.vue',
+        'src/components/About/LocalMenu2.vue',
     ],
     theme: {
         extend: {
