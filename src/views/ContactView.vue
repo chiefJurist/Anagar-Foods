@@ -1,7 +1,7 @@
 <script>
-    import ContactMap from '../components/ContactMap.vue';
-    import ContactMessage from '../components/ContactMessage.vue';
-    import ContactNav from '../components/ContactNav.vue';
+    import ContactMap from '../components/Contact/ContactMap.vue';
+    import ContactMessage from '../components/Contact/ContactMessage.vue';
+    import ContactNav from '../components/Contact/ContactNav.vue';
 
     export default{
         components: { ContactMap, ContactMessage, ContactNav },
