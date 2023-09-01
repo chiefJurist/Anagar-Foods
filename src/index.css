@@ -61,9 +61,19 @@
 
 
 /*About View*/
+.des-con{
+    @apply px-3 lg:flex justify-between gap-10 flex-row-reverse bg-bg-4;
+}
 .card-title{
     @apply text-3xl md:text-5xl py-4 font-serif font-bold text-yellow-500;
 }
-.card{
-    @apply text-yellow-700 text-lg font-light shadow-md rounded-md text-center p-4 border-l-8 border-yellow-500 bg-bg-sm-6 bg-no-repeat bg-right-bottom;
+.para{
+    @apply text-yellow-700 sm:text-lg font-light p-4 bg-bg-sm-6 bg-no-repeat bg-right-bottom;
+}
+
+.about-con{
+    @apply px-3 mt-40 lg:flex justify-between items-center gap-20;
+}
+.list-style{
+    @apply  shadow-md border-l-4 border-orange-600 my-3 p-3 italic font-bold rounded-md;
 }
