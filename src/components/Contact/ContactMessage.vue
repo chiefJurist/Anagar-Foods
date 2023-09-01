@@ -36,7 +36,7 @@
             <div class="text-2xl md:text-4xl font-bold">Our Contacts</div>
 
             <div class="contact">
-                <div class="contact-image"><img src="../assets/call.png" alt=""></div>
+                <div class="contact-image"><img src="/img/call.png" alt=""></div>
                 <div>
                     <div class="contact-head">Call</div>
                     <div>+2347010028679</div>
@@ -44,7 +44,7 @@
             </div>
 
             <div class="contact">
-                <div class="contact-image"><img src="../assets/time.png" alt=""></div>
+                <div class="contact-image"><img src="/img/time.png" alt=""></div>
                 <div>
                     <div class="contact-head">Work Time</div>
                     <div>Mon - Sat 8am -6pm</div>
@@ -52,7 +52,7 @@
             </div>
 
             <div class="contact">
-                <div class="contact-image"><img src="../assets/address.png" alt=""></div>
+                <div class="contact-image"><img src="/img/address.png" alt=""></div>
                 <div>
                     <div class="contact-head">Address</div>
                     <div>Lorem ipsum dolor, sit amet consectetur .</div>
