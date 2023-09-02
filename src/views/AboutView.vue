@@ -11,13 +11,11 @@
 </script>
 
 <template>
-    <div class="about">
-        <AboutNav />
-        <AboutDescription />
-        <InternationalMenu />
-        <LocalMenu />
-        <LocalMenu2 />
-    </div>
+    <AboutNav />
+    <AboutDescription />
+    <InternationalMenu />
+    <LocalMenu />
+    <LocalMenu2 />
 </template>
 
 <style>
