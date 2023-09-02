@@ -14,7 +14,7 @@
             </div>
 
             <div class="submit-con">
-                <input type="submit" value="Log In" class="main-submit" required>
+                <button class="main-submit">Log In</button>
             </div>
         </form>
     </div>
