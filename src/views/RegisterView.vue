@@ -1,6 +1,6 @@
 <template>
     <div class="form-con">
-        <form class="main-form">
+        <form @submit.prevent class="main-form">
             <div class="input-con">
                 <label class="label"> New Email:</label><br>
                 <input type="email" placeholder="input new email" class="main-input" required>
@@ -39,7 +39,7 @@
             </div>
 
             <div class="submit-con">
-                <button class="main-submit">Register</button>
+                <input type="submit" value="Register" class="main-submit">
             </div>
         </form>
     </div>
