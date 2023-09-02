@@ -39,7 +39,7 @@
             </div>
 
             <div class="submit-con">
-                <input type="submit" value="Register" class="main-submit">
+                <button class="main-submit">Register</button>
             </div>
         </form>
     </div>
