@@ -77,3 +77,28 @@
 .list-style{
     @apply  shadow-md border-l-4 border-orange-600 my-3 p-3 italic font-bold rounded-md;
 }
+
+
+
+/*LOGIN*/
+.form-con{
+    @apply bg-bg-4 flex justify-center font-bold text-gray-600;
+}
+.main-form{
+    @apply bg-white bg-bg-8 bg-no-repeat bg-left-top w-4/5 sm:w-3/4 lg:w-1/2 rounded-lg shadow-lg p-6 sm:p-12;
+}
+.input-con{
+    @apply border border-gray-600 rounded-lg overflow-hidden p-2 lg:p-4 mt-6;
+}
+.label{
+    @apply text-xl;
+}
+.main-input{
+    @apply w-full border-none outline-none caret-gray-800 sm:text-xl font-bold p-1 sm:p-3 rounded-lg lowercase;
+}
+.submit-con{
+    @apply mt-20 flex justify-center;
+}
+.main-submit{
+    @apply bg-gray-500 text-white sm:text-2xl p-2 w-60 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition ease-out duration-500;
+}
