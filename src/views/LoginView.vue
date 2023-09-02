@@ -1,6 +1,6 @@
 <template>
     <div class="form-con">
-        <form class="main-form">
+        <form @submit.prevent class="main-form">
             <div class="input-con">
                 <label class="label">Username / Email:</label><br>
                 <input type="text" placeholder="input username or email" class="main-input" required>
@@ -14,7 +14,7 @@
             </div>
 
             <div class="submit-con">
-                <button class="main-submit">Log In</button>
+                <input type="submit" value="Log In" class="main-submit" required>
             </div>
         </form>
     </div>
