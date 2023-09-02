@@ -1,6 +1,16 @@
+<script>
+    export default{
+        methods: {
+            handleSubmit() {
+                //Validate input and redirect
+            }
+        }
+    }
+</script>
+
 <template>
     <div class="form-con">
-        <form @submit.prevent class="main-form">
+        <form @submit.prevent="handleSubmit" class="main-form">
             <div class="input-con">
                 <label class="label"> New Email:</label><br>
                 <input type="email" placeholder="input new email" class="main-input" required>
