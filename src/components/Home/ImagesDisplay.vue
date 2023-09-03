@@ -5,7 +5,7 @@
         </div>
 
         <div>
-            <img src="/img/food-moimoi.jpg" alt="" class=" w-60 rounded-lg lg:w-96">
+            <img src="/img/food-moimoi.jpg" alt="" class=" w-60 rounded-lg lg:w-96 lg:rounded-full">
         </div>
 
         <div>
