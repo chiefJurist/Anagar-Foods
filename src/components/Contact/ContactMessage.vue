@@ -39,7 +39,7 @@
                 <div class="contact-image"><img src="/img/call.png" alt=""></div>
                 <div>
                     <div class="contact-head">Call</div>
-                    <div>+2347010028679</div>
+                    <div class=" text-gray-500">+2347010028679</div>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@
                 <div class="contact-image"><img src="/img/time.png" alt=""></div>
                 <div>
                     <div class="contact-head">Work Time</div>
-                    <div>Mon - Sat 8am -6pm</div>
+                    <div class=" text-gray-500">Mon - Sat 8am -6pm</div>
                 </div>
             </div>
 
@@ -55,7 +55,7 @@
                 <div class="contact-image"><img src="/img/address.png" alt=""></div>
                 <div>
                     <div class="contact-head">Address</div>
-                    <div>Lorem ipsum dolor, sit amet consectetur .</div>
+                    <div class=" text-gray-500">621 Old Ojo Rd, Satellite Town 102102, Lagos</div>
                 </div>
             </div>
         </div>

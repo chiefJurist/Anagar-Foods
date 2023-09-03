@@ -20,7 +20,7 @@
             <img src="/img/img-3.jpg" alt="" class=" w-60 rounded-lg lg:w-96 lg:rounded-full">
         </div>
 
-        <div class=" lg:flex justify-center">
+        <div class=" lg:flex justify-center lg:pt-11">
             <img src="/img/img-5.jpg" alt="" class=" w-60 rounded-lg lg:w-20 lg:h-20">
         </div>
 
