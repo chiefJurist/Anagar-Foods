@@ -17,6 +17,8 @@ module.exports = {
         'src/components/About/InternationalMenu.vue',
         'src/components/About/LocalMenu.vue',
         'src/components/About/LocalMenu2.vue',
+        'src/views/HomeView.vue',
+        'src/components/Home/Welcome.vue',
     ],
     theme: {
         extend: {
@@ -35,6 +37,7 @@ module.exports = {
                 'bg-6': "url('/img/bg-6.png')",
                 'bg-7': "url('/img/bg-7.png')",
                 'bg-8': "url('/img/bg-8.png')",
+                'bg-9': "url('/img/bg-9.png')",
                 'bg-sm-1': "url('/img/bg-sm-1.png')",
                 'bg-sm-2': "url('/img/bg-sm-2.png')",
                 'bg-sm-3': "url('/img/bg-sm-3.png')",

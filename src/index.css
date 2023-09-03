@@ -65,7 +65,7 @@
     @apply px-3 lg:flex justify-between gap-10 flex-row-reverse bg-bg-4;
 }
 .card-title{
-    @apply text-3xl md:text-5xl py-4 font-serif font-bold text-yellow-500;
+    @apply text-2xl sm:text-3xl md:text-5xl py-4 font-serif font-bold text-yellow-500;
 }
 .para{
     @apply text-yellow-700 sm:text-lg font-light p-4 bg-bg-sm-6 bg-no-repeat bg-right-bottom;
@@ -80,7 +80,7 @@
 
 
 
-/*LOGIN*/
+/*LOGIN AND REGISTER*/
 .form-con{
     @apply bg-bg-4 flex justify-center font-bold text-gray-600;
 }
@@ -101,4 +101,17 @@
 }
 .main-submit{
     @apply bg-gray-500 text-white sm:text-2xl p-2 w-60 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition ease-out duration-500;
+}
+
+
+
+/*HOME VIEW*/
+.welcome-con{
+    @apply px-6 text-gray-500;
+}
+.welcome-title{
+    @apply text-xl py-2 sm:text-3xl md:text-5xl font-serif font-bold text-yellow-500 text-center;
+}
+.welcome-body{
+    @apply flex justify-center font-semibold text-lg sm:text-xl;
 }
