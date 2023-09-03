@@ -19,6 +19,7 @@ module.exports = {
         'src/components/About/LocalMenu2.vue',
         'src/views/HomeView.vue',
         'src/components/Home/Welcome.vue',
+        'src/components/Home/ImagesDisplay.vue',
     ],
     theme: {
         extend: {
