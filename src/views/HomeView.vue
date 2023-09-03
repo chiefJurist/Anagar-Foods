@@ -1,6 +1,11 @@
 <script>
+    import Welcome  from "../components/Home/Welcome.vue";
+
+    export default {
+        components: { Welcome }
+    }
 </script>
 
 <template>
-    <main>This is the home page</main>
+    <Welcome />
 </template>
