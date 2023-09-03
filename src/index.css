@@ -82,7 +82,7 @@
 
 /*LOGIN AND REGISTER*/
 .form-con{
-    @apply bg-bg-4 flex justify-center font-bold text-gray-600;
+    @apply bg-bg-4 flex justify-center font-bold text-gray-600 my-36;
 }
 .main-form{
     @apply bg-white bg-bg-8 bg-no-repeat bg-left-top w-4/5 sm:w-3/4 lg:w-1/2 rounded-lg shadow-lg p-6 sm:p-12;
