@@ -28,7 +28,7 @@ module.exports = {
                 custom: ['Nunito']
             },
 
-            //background Images
+            //Background Images
             backgroundImage: {
                 'bg-1': "url('/img/bg-1.png')",
                 'bg-2': "url('/img/bg-2.png')",
