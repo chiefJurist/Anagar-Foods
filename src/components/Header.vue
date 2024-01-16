@@ -11,7 +11,7 @@
 <template>
     <div class="header-container">
         <div class=" py-5 sm:py-0 sm:text-2xl">
-            <span><img src="/img/logo.png" alt="logo" class=" w-1/4 sm:w-1/2 "></span>
+            <span><img src="/img/anagar-logo.png" alt="logo" class=" w-1/4 sm:w-1/2 "></span>
             <span class=" text-2xl sm:text-3xl">Anagar Foods</span>
         </div>
 
